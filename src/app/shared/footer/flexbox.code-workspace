@@ -1,0 +1,34 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../flexbox"
+		},
+		{
+			"path": "../../../../../../angularv17"
+		},
+		{
+			"path": "../../../../../../tienda_angular17"
+		},
+		{
+			"path": "../../../../../../mongo"
+		},
+		{
+			"path": "../../../../../../mongo/timestamp"
+		},
+		{
+			"path": "../../../../../../mongo/requestHeader"
+		},
+		{
+			"path": "../../../../../../mongo/shortener"
+		},
+		{
+			"path": "../../../../../../cursonode"
+		},
+		{
+			"path": "../../../../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "javascriptSena"
+	}
+}
