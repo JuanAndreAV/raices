@@ -7,5 +7,5 @@ import { ProductsService } from 'src/app/services/productos.service';
   styleUrls: ['./portafolio.component.css']
 })
 export class PortafolioComponent {
-constructor(public productService: ProductsService){}
+constructor(public productsService: ProductsService){}
 }

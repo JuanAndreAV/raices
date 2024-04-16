@@ -1,7 +1,7 @@
     
     <section class="  ae-container-fluid ae-container-fluid--inner rk-portfolio">
       <!-- 1 -->
-  <div align ="center" *ngIf="productService.carga">
+  <div align ="center" *ngIf="productsService.carga">
     <h2>Cargando</h2>
     <div class="loader loader--style1" title="0">
       <svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -26,9 +26,9 @@
 
 
         
-      <div *ngIf="!productService.carga" 
+      <div *ngIf="!productsService.carga" 
       class="animate__animated animate__flip ae-masonry ae-masonry-md-2 ae-masonry-xl-4">
-        <a *ngFor="let prop of productService.producto " 
+        <a *ngFor="let prop of productsService.producto " 
         [routerLink]="['/item', prop.cod]" class="rk-item ae-masonry__item"><img src="assets/productos/{{prop.url}}.jpg" alt="">
           <div class="item-meta">
             <h2>{{prop.titulo}}</h2>
